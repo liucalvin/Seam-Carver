@@ -9,21 +9,21 @@ Intuituvely, the algorithm removes a seam whose pixels have the least difference
 ## Testing Examples
 
 Original image dimensions: 1280 x 738
-<img src = "https://github.com/liucalvin/Seam-Carver/tree/master/Files/surfing.jpg">
+![surfing](https://github.com/liucalvin/Seam-Carver/tree/master/Files/surfing.jpg)
 
 Resized image dimensions: 780 x 738 (500 vertical seams removed)
-<img src = "https://github.com/liucalvin/Seam-Carver/tree/master/Files/surfing_resized.jpg">
+![surfing resized](https://github.com/liucalvin/Seam-Carver/tree/master/Files/surfing_resized.jpg)
 
 
 Original image dimensions: 640 x 426
-<img src = "https://github.com/liucalvin/Seam-Carver/tree/master/Files/tree.jpg">
+![tree](https://github.com/liucalvin/Seam-Carver/tree/master/Files/tree.jpg)
 
 Resized image dimensions: 440 x 426 (200 vertical seams removed)
-<img src = "https://github.com/liucalvin/Seam-Carver/tree/master/Files/tree_resized.jpg">
+![tree resized](https://github.com/liucalvin/Seam-Carver/tree/master/Files/tree_resized.jpg)
 
 
 Original image dimensions: 425 x 1279
-<img src = "https://github.com/liucalvin/Seam-Carver/tree/master/Files/wood.jpg">
+![wood](https://github.com/liucalvin/Seam-Carver/tree/master/Files/wood.jpg)
 
 Resized image dimensions: 425 x 779 (500 horizontal seams removed)
-<img src = "https://github.com/liucalvin/Seam-Carver/tree/master/Files/wood_resized.jpg">
+![surfingwood resized](https://github.com/liucalvin/Seam-Carver/tree/master/Files/wood_resized.jpg)
