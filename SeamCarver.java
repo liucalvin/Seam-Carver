@@ -20,19 +20,23 @@ public class SeamCarver {
         }
     }
     
-    //  unit testing (optional)
+     //  testing client
     public static void main(String[] args) {
         SeamCarver seamCarver = new SeamCarver(
-                new Picture("C:\\Users\\User\\Desktop\\siamese cat.jpg"));
+                new Picture(args[0]));
+        seamCarver.invertPicture();
         seamCarver.picture().show();
         System.out.println(seamCarver.width() + " by " + seamCarver.height());
-        for (int i = 0; i < 200; i++) {
+        for (int i = 0; i < Integer.parseInt(args[1]); i++) {
             int[] temp = seamCarver.findHorizontalSeam();
             seamCarver.removeHorizontalSeam(temp);
         }
+        for (int i = 0; i < Integer.parseInt(args[2]); i++) {
+            int[] temp = seamCarver.findVerticalSeam();
+            seamCarver.removeVerticalSeam(temp);
+        }
         System.out.println(seamCarver.width() + " by " + seamCarver.height());
         seamCarver.picture().show();
-        
     }
     
     // current picture
